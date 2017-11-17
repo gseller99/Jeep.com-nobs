@@ -1,0 +1,333 @@
+body {
+    margin: 0px
+}
+
+
+/* Navbar container */
+
+.navbar {
+    display: flex;
+    border: 1px solid black;
+    background-color: black;
+    height: 50px;
+    flex: 6;
+    color: white;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial;
+}
+
+
+/* Links inside the navbar */
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu {
+    background-color: grey;
+}
+
+/*.menu-vehicles {
+  margin-left: 25%;
+  border: 2px solid green;
+}*/
+
+.logo {
+    color: white;
+    background-color: black;
+}
+
+.jeep-logo {
+    width: 65px;
+    margin-right: 0px;
+    */
+}
+
+.slideshow-items {
+    /*display: flex;*/
+}
+
+.sliderbar {
+    /*display: flex;*/
+    border: 1px solid black;
+    background-color: grey;
+    height: 125px;
+    flex: 6;
+    color: white;
+    align-items: center;
+    border-bottom: solid black;
+}
+
+.slider-bar-pics {
+    height: 120px;
+}
+
+.Promo-bar {}
+
+body {
+    margin: 0px;
+}
+
+ul.topnav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    justify-content: center;
+    align-items:center;
+
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/*ul.topnav li.right {
+    float: right;
+   margin-left: 25%;
+}
+*/
+/*ul.topnav li.left-link{
+  margin-left:10%;
+}*/
+/*.menu-vehicles {
+  margin-left:20%;
+}*/
+
+.left-link{
+  margin-left:65%;
+}
+
+@media screen and (min-width: 375px) {
+    .left-link{
+  margin-left:40%;
+}
+}
+
+.carousel {
+    display: flex;
+    border: 1px solid red;
+    height: 529px;
+    background-color: black;
+}
+
+.promobox {
+    display: flex;
+    border: 1px solid red;
+}
+
+.content-info {
+    /* display: flex;*/
+    border: 1px solid red;
+    margin-left: 5%;
+}
+
+.content-info img {
+    width: 116px;
+    height: 66px;
+    padding: 40px 15px 25px 15px;
+}
+
+.content-info span {
+    width: 127px;
+    height: 14px;
+}
+
+.jeep-title {
+    font-size: 13px;
+    color: white;
+    border: 4px solid orange;
+}
+
+.jeep-promo {
+    font-size: 25px;
+    font-weight:bolder;
+    color: white;
+    border: 4px solid orange;
+    height: 120px;
+    font-family: Arial;
+}
+
+.vehicle-detail-button {}
+
+.payments-text {
+    font-size: 12px;
+    color: white;
+}
+
+.vehicle-detail-button {
+    margin: 5px;
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 14px 42px 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.build-price-button {
+    margin: 5px;
+    background-color: #626262;
+    border: none;
+    color: #ffffff;
+    padding: 14px 42px 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+
+.button-wrapper {
+    width: 400px;
+    border: 2px solid green;
+}
+
+.btn {
+    margin: 5px auto;
+    margin-left: 25%;
+}
+
+.text-margin {
+    text-align: center;
+
+}
+
+.large-car-boxes {
+    /*display:flex;*/
+    border: 2px solid purple;
+    height: 1075px;
+    background-color: black;
+}
+
+.large-car-container {
+    /*display:flex;*/
+    border: 2px solid purple;
+    height: 275px;
+    background-color: #212121;
+    font-size: 12px;
+    color: white;
+}
+
+.large-pic-box {
+    height: 260px;
+    background-color: #D1D1D1;
+}
+
+.large-pic-box img {
+    height: 246px;
+    width:333px;
+}
+
+.learn-more {
+    background-color: #212121;
+    text-decoration: none !important;
+    color: white;
+    margin-left: 50%;
+}
+
+a {
+    color: white;
+    font-size: 12px;
+}
+
+.eight-car-block {
+    border: 2px solid green;
+    background-color: white;
+    height: 900px;
+}
+
+.car-block {
+    display: flex;
+    /* padding: 10px 16px 10px 16px*/
+    height: 71px;
+    /*border: 2px solid orange;*/
+    margin: 25px;
+}
+
+.jeep-logo-text {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 30%;
+}
+
+.jeep-logo-box {
+padding-top:50px;
+padding-bottom:0px;
+
+}
+
+.sup {
+    position: relative;
+    font-size: 40%;
+    line-height: 0;
+    vertical-align: baseline;
+    top: -1.2em;
+}
+
+.car-pic-box {
+    height: 69px;
+    width: 147px;
+    /*border: 2px solid pink;*/
+}
+
+.car-pic-box img {
+    height: 68px;
+    width: 147px;
+}
+
+.car-d-text {
+    height: 12px;
+}
+
+.car-box-listing {
+    height: 68px;
+    /*border: 2px solid black;*/
+    width: 275px;
+    padding-left: 16px;
+}
+
+.car-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px;
+    padding-top: 2px;
+    /*font-family: "Times New Roman", sans-serif;*/
+
+}
+
+.msrp {
+    font-weight: bold;
+    font-size: 8px;
+    margin: 0px;
+    color:grey;
+    padding-top: 6px;
+}
+
+.price {
+  font-weight: bold;
+}
